@@ -141,7 +141,7 @@ Polymer({
         box-sizing: border-box;
         position: relative;
 
-        --paper-input-container-focus-color: var(--primary-color);
+        --paper-input-container-focus-color: var(--app-primary-color, var(--primary-color));
 
         --paper-icon-button: {
           height: 24px;

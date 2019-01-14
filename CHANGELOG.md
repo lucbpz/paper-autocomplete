@@ -119,7 +119,7 @@ Thanks to @jimivdw.
 
 ### Bug Fixes
 - The `--paper-input-container-focus-color` default value is no longer hardcoded to a specific color (`#2196f3`). 
-Now it is set by default to `var(--primary-color)`.
+Now it is set by default to `var(--primary-color)` or `var(--app-primary-color)`.
 
 ## Release 2.3.0 (2017-02-08)
 
